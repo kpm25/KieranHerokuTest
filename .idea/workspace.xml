@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08e88b93-ae9c-412a-9914-5fc863bf2637" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -125,17 +124,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="235">
+              <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -192,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/public/css/test.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/base.hbs" />
         <option value="$PROJECT_DIR$/src/main/resources/public/css/app.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1425,18 +1424,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
       </provider>
