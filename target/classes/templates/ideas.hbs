@@ -1,0 +1,41 @@
+{{#partial "content"}}
+    <h1 id="myHeading" >Current Ideas</h1>
+    <script src="/css/app.js">  </script>
+    <u1>
+
+        {{#each ideas}}
+            <li>
+                <form action="/ideas/{{slug}}/vote" method="post">
+                    <a href="/ideas/{{slug}}">{{ title }} </a> ( {{ voteCount }} votes) <button>Vote</button>
+                </form>
+
+
+            </li>
+        {{/each}}
+
+    </u1>
+
+
+    <form action="/ideas" method="post">
+        <input type="text" placeholder="What's your user idea?" name="title" id="field" />
+        <button id="testbutton">Suggest!</button>
+
+    </form>
+
+    <form >
+        <button id="add">test!</button>
+    </form>
+    <div class="page-wrap">
+
+        Content!
+
+
+        <h1 id="myHeading">JavaScript and the DOM</h1>
+        <p>Making a web page interactive</p>
+        <input type="text" id="myTextInput">
+        <button id="myButton">Change headline color</button>
+    </div>
+
+{{/partial}}
+
+{{> base.hbs}}
